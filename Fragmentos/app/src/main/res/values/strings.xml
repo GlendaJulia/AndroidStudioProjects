@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">UsoFragmentosVersion3</string>
+    <string name="tab_text_1">Contactos</string>
+    <string name="tab_text_2">Musicas</string>
+    <string name="tab_text_3">Otros</string>
+    <string name="tab_text_4">Adicional</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Esta en la seccion: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SaludoActivity">
+
+    <Button
+        android:id="@+id/multi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/suma"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="133dp"
+        android:text="MULTIPLICACION"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="374dp" />
+
+    <EditText
+        android:id="@+id/num_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/num_2"
+        android:layout_marginTop="127dp"
+        android:ems="10"
+        android:inputType="numberSigned"
+        tools:layout_editor_absoluteX="123dp"
+        tools:layout_editor_absoluteY="94dp" />
+
+    <EditText
+        android:id="@+id/num_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="49dp"
+        android:layout_marginTop="206dp"
+        android:ems="10"
+        android:inputType="numberSigned"
+        tools:layout_editor_absoluteX="123dp"
+        tools:layout_editor_absoluteY="177dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/num_1"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="28dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="105dp"
+        tools:text="Numero 1: " />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="127dp"
+        android:layout_marginTop="62dp"
+        android:text="@string/alumno"
+        android:textColor="@color/colorText"
+        tools:layout_editor_absoluteX="134dp"
+        tools:layout_editor_absoluteY="33dp"
+        tools:text="OPERACIONES" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/num_2"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="38dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="190dp"
+        tools:text="Numero 2: " />
+
+    <Button
+        android:id="@+id/suma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/resta"
+        android:layout_toStartOf="@+id/limpiar"
+        android:text="SUMA"
+        tools:layout_editor_absoluteX="101dp"
+        tools:layout_editor_absoluteY="292dp" />
+
+    <Button
+        android:id="@+id/resta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/dividir"
+        android:layout_marginBottom="223dp"
+        android:text="RESTA"
+        tools:layout_editor_absoluteX="227dp"
+        tools:layout_editor_absoluteY="285dp" />
+
+    <Button
+        android:id="@+id/limpiar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="49dp"
+        android:text="LIMPIAR"
+        tools:layout_editor_absoluteX="170dp"
+        tools:layout_editor_absoluteY="456dp" />
+
+    <Button
+        android:id="@+id/dividir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="142dp"
+        android:layout_marginEnd="67dp"
+        android:text="DIVISION"
+        tools:layout_editor_absoluteX="222dp"
+        tools:layout_editor_absoluteY="374dp" />
+
+</RelativeLayout>

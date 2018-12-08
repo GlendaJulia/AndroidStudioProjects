@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:background="?android:attr/colorAccent"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="Notificaciones"
+        android:textColor="@android:color/background_light"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="422dp"
+        app:srcCompat="@drawable/sakura" />
+
+    <Button
+        android:id="@+id/btnVerNotificacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_green_light"
+        android:onClick="agregarNotificacion"
+        android:text="Crear Notificacion"
+        android:textColor="@android:color/background_light" />
+
+    <Button
+        android:id="@+id/btnNotificaciones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_dark"
+        android:onClick="notificacionOreo"
+        android:text="Notificaciones Oreo a +"
+        android:textColor="@android:color/background_light" />
+
+</LinearLayout>

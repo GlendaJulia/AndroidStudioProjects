@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_light"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnListarCompromisos"
+        android:layout_width="298dp"
+        android:layout_height="58dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="160dp"
+        android:background="@android:color/holo_orange_dark"
+        android:onClick="listar_compromisos_onclick"
+        android:text="Listar compromisos"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="152dp" />
+
+    <Button
+        android:id="@+id/btnListarContactos"
+        android:layout_width="298dp"
+        android:layout_height="58dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="241dp"
+        android:background="@android:color/holo_orange_dark"
+        android:onClick="listar_contactos_onclick"
+        android:text="Listar contactos"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="152dp" />
+
+    <Button
+        android:id="@+id/btnCompromisos"
+        android:layout_width="298dp"
+        android:layout_height="58dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="108dp"
+        android:background="@android:color/holo_orange_dark"
+        android:onClick="compromisos_onclick"
+        android:text="Compromisos"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="152dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="62dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Usando SQLitel"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.03" />
+
+    <Button
+        android:id="@+id/btnContactos"
+        android:layout_width="298dp"
+        android:layout_height="61dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="183dp"
+        android:background="@android:color/holo_orange_dark"
+        android:onClick="contactos_onclick"
+        android:text="Contactos"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="88dp" />
+
+</RelativeLayout>

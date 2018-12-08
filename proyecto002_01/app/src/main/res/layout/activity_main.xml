@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alwaysDrawnWithCache="false"
+    android:background="@android:color/background_dark"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="#cc0099"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="PAR O IMPAR"
+        android:textColor="@android:color/background_light"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView"
+        android:background="@android:color/holo_red_light"
+        android:gravity="center_vertical"
+        android:text="Ingrese un número:"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/txtNro"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="124dp"
+        android:background="@android:color/background_light"
+        android:ems="10"
+        android:gravity="center_vertical"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnEvaluar"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="172dp"
+        android:text="EVALUAR" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="245dp"
+        android:background="@android:color/holo_purple"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="RESULTADO"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:layout_width="334dp"
+        android:layout_height="96dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="160dp"
+        android:layout_marginStart="12dp">
+
+        <RadioButton
+            android:id="@+id/radioPar"
+            android:layout_width="76dp"
+            android:layout_height="wrap_content"
+            android:shadowColor="@android:color/background_light"
+            android:text="Par"
+            android:textColor="@android:color/background_light"
+            android:textSize="24sp" />
+
+        <RadioButton
+            android:id="@+id/radioImpar"
+            android:layout_width="97dp"
+            android:layout_height="wrap_content"
+            android:text="Impar"
+            android:textColor="@android:color/background_light"
+            android:textSize="24sp" />
+    </RadioGroup>
+</RelativeLayout>

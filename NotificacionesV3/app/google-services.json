@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "467038235781",
+    "firebase_url": "https://notificacionesv3-35ef2.firebaseio.com",
+    "project_id": "notificacionesv3-35ef2",
+    "storage_bucket": "notificacionesv3-35ef2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:467038235781:android:d970010e2de8b60f",
+        "android_client_info": {
+          "package_name": "com.example.tecsup.notificacionesv3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "467038235781-h914kg8diq6gcvl2g3gikps908ltlrmm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANAQlyV3KG1iUK91aHoaB0Q2h1-Swj9M8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

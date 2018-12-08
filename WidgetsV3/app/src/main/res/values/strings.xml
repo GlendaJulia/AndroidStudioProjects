@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">WidgetsV3</string>
+    <string name="appwidget_text">BIENVENIDO(A):</string>
+    <string name="add_widget">Add widget</string>
+</resources>

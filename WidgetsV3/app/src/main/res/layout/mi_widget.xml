@@ -1,0 +1,116 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/frmWidget"
+    android:layout_width="384dp"
+    android:layout_height="225dp"
+    android:background="@drawable/fondo"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/lblHora5"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btnActualizar"
+        android:layout_centerHorizontal="true"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="14°"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lblHora4"
+        android:layout_width="wrap_content"
+        android:layout_height="61dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="51dp"
+        android:layout_marginStart="22dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="Arequipa"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/appwidget_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/appwidget_text"
+        android:gravity="center_horizontal"
+        android:text="@string/appwidget_text"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/lblMensaje"
+        android:layout_width="179dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/appwidget_text"
+        android:layout_marginEnd="16dp"
+        android:gravity="center_horizontal|center"
+        android:singleLine="false"
+        android:text="Mensaje Recibido"
+        android:textColor="?android:attr/colorPrimaryDark"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lblFecha"
+        android:layout_width="193dp"
+        android:layout_height="125dp"
+        android:layout_alignEnd="@+id/btnActualizar"
+        android:layout_below="@+id/appwidget_text"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="Thu, "
+        android:textColor="@android:color/holo_purple"
+        android:textSize="48sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lblHora"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/appwidget_text"
+        android:layout_below="@+id/appwidget_text"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="00:00"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lblm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/lblHora"
+        android:layout_toEndOf="@+id/lblHora"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="am"
+        android:textColor="@android:color/holo_green_light"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnActualizar"
+        android:layout_width="96dp"
+        android:layout_height="26dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="0dp"
+        android:layout_weight="1"
+        android:background="@android:color/holo_purple"
+        android:text="Actualizar"
+        android:textColor="@android:color/background_light" />
+
+</RelativeLayout>

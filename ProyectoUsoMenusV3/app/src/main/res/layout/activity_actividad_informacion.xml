@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".actividad_informacion">
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="296dp"
+        android:layout_height="42dp"
+        android:text="Apellidos:"
+        android:textSize="22sp"
+        android:textStyle="normal|bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="227dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="296dp"
+        android:layout_height="42dp"
+        android:text="Semestre:"
+        android:textSize="22sp"
+        android:textStyle="normal|bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="269dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="296dp"
+        android:layout_height="42dp"
+        android:text="Seccion:"
+        android:textSize="22sp"
+        android:textStyle="normal|bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="311dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="296dp"
+        android:layout_height="42dp"
+        android:text="Carrera:"
+        android:textSize="22sp"
+        android:textStyle="normal|bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="353dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="296dp"
+        android:layout_height="42dp"
+        android:text="Nombres:"
+        android:textSize="22sp"
+        android:textStyle="normal|bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="185dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="296dp"
+        android:layout_height="42dp"
+        android:text="Ingrese aqui sus datos:"
+        android:textSize="24sp"
+        android:textStyle="normal|bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="143dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="296dp"
+        android:layout_height="42dp"
+        android:text="Creacion de Menus"
+        android:textSize="24sp"
+        android:textStyle="normal|bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="83dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="386dp"
+        android:layout_height="158dp"
+        android:background="@android:color/background_dark"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="TECSUP Pasion por la Tecnologia"
+        android:textColor="@android:color/background_light"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="409dp" />
+</android.support.constraint.ConstraintLayout>
